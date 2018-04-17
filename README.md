@@ -38,4 +38,4 @@ Reminder: select region: `Ctl+space`, cut: `Ctl-w`, copy: `Alt-w`, paste: `Ctl-y
 
 (Don't be tempted to enable `cua` mode because you won't be able to show type of selections using `Ctl-c` `Ctl-t`.)
 
-![screenshot.PNG]
+![./screenshot.PNG]
