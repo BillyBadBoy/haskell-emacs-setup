@@ -32,7 +32,7 @@ The first time a haskell file is opened in emacs it will take some time to insta
 | `Alt-s` `Alt-s`        | stack command menu                               |
 | `Alt-s` `Alt-t`        | stack targets menu                               |
 
-The stack commands only work when editing files within a stack project.
+The 2 stack commands only work when editing files within a stack project.
 
 Reminder: select region: `Ctl+space`, cut: `Ctl-w`, copy: `Alt-w`, paste: `Ctl-y`.
 
