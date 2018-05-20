@@ -11,7 +11,7 @@ This init file configures emacs to:
 1. install [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 1. install `hlint` globally using `stack install hlint` (run from outside a stack project)
 1. install [emacs](https://www.gnu.org/software/emacs/)
-1. copy `init.el` file (from this repo) to `~/.emacs.d` directory (on your machine)
+1. copy `init.el` file (from this repo) to `~/.emacs.d` directory on your machine (create the directory if necessary)
 
 The first time a haskell file is opened in emacs it will take some time to install everything.
 
