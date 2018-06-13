@@ -1,4 +1,6 @@
-# My emacs `init.el` file for Haskell development using intero
+# Emacs Haskell setup
+
+## My emacs `init.el` file
 This init file configures emacs to:
 
 * use `intero` for **both** stack and non-stack haskell files
@@ -19,14 +21,14 @@ The first time a haskell file is opened in emacs it will take some time to insta
 
 | Key binding            | Description                                      |
 | --------               | --------                                         |
-| `Alt-.`	             | Jump to definition                               |
+| `Alt-.`	               | Jump to definition                               |
 | `Ctl-c` `Ctl-i`        | Show information of identifier at point          |
 | `Ctl-c` `Ctl-t`        | Show the type of thing at point, or the selection|
 | `Ctl-u` `Ctl-c` `Ctl-t`| Insert a type signature for the thing at point   |
 | `Ctl-c` `Ctl-l`        | Load this module in the REPL                     |
 | `Ctl-c` `Ctl-c`        | Evaluate the selected region in the REPL         |
 | `Ctl-c` `Ctl-r`        | Apply suggestions from GHC                       |
-| `Ctl-c` `Ctl-k`	     | Clear REPL                                       |
+| `Ctl-c` `Ctl-k`	       | Clear REPL                                       |
 | `Ctl-c` `Ctl-z`        | Switch to and from the REPL                      |
 | `Shift-arrow`          | move to window in arrow direction                |
 | `Alt-s` `Alt-s`        | stack command menu                               |
