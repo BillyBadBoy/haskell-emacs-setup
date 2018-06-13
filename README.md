@@ -1,4 +1,4 @@
-# My emacs `init.el` file
+# My emacs `init.el` file for Haskell development using intero
 This init file configures emacs to:
 
 * use `intero` for **both** stack and non-stack haskell files
