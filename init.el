@@ -32,6 +32,15 @@
 ;; use Shift-arrow keys to move between windows
 (windmove-default-keybindings)
 
+;; show column indicator
+(require 'fill-column-indicator) 
+(add-hook 'haskell-mode-hook 'fci-mode)
+(setq fci-rule-column 80)
+(setq fci-rule-color "#202000")
+
+;; smooth keyboard scrolling
+(setq scroll-step 1) ;; keyboard scroll one line at a time
+
 (custom-set-variables 
   ;; use manoj-dark - but reset function-name font size (see below)
   '(custom-enabled-themes (quote (manoj-dark)))
