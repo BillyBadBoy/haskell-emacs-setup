@@ -1,6 +1,8 @@
 ;; init.el file for using intero for haskell development
-;; pre-requisites: [1] stack installed [2] hlint installed
-
+;; pre-requisites: 
+;; [1] stack installed 
+;; [2] hlint installed 
+;; [3] Inconsolata font installed
 
 ;; If you don't have MELPA in your package archives:
 (require 'package)
@@ -49,6 +51,9 @@
   '(linum-format " %7i ")
   '(show-paren-mode t)
 )
+
+;; set default font
+(set-frame-font "Inconsolata 14" nil t)
 
 (custom-set-faces
   ;; stop manoj-dark from using bigger font for function names because it messes up alignment
