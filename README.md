@@ -7,7 +7,7 @@ This init file configures emacs to:
 * use flycheck to show `hlint` warnings as-you-type (must install `hlint` separately - see below)
 * use `hasky-stack` for invoking stack from emacs
 * use Shift+arrow keys to do window navigation 
-* sets some other look-and-feel related settings
+* set some other look-and-feel related settings
 
 ## Installation
 1. install [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
