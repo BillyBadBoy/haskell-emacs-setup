@@ -12,9 +12,14 @@
                       company
                       smartparens
                       rainbow-delimiters
-                      aggressive-indent))
+                      aggressive-indent
+                      which-key))
 
 (dolist (p my-packages) (unless (package-installed-p p) (package-install p)))
+
+;; which-key
+(require 'which-key)
+(which-key-mode)
 
 ;; projectile keybinding
 (require 'projectile)
@@ -31,7 +36,7 @@
 ;; set font
 (set-frame-font "Inconsolata-16")
 
-;; clohure editing tweaks
+;; clojure editing tweaks
 (add-hook 'clojure-mode-hook #'smartparens-strict-mode)
 (define-key smartparens-mode-map (kbd "M-(") 'sp-wrap-round)
 (define-key smartparens-mode-map (kbd "M-[") 'sp-wrap-square)
